@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Joversky Jacotin">
+    <meta name="description" content="PEC2 M4.252 - HTML y CSS aula 1">
+    <title>DATOS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- header and navigation content -->
+    <header class="menu-border">
+        <div class="wrapper">
+            <div class="img-menu">
+                <img src="img/logoAsimovFans.png" alt=" Logo Asimov Fans">
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="leyes.html">LEYES</a></li>
+                    <li><a href="datos.html" class="active">DATOS</a></li>
+                    <li><a href="soci.html">ASOCIATE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--article-->
+    <article class="wrapper">
+        <h1>Datos</h1>
+        <p>En la siguiente tabla se plantean las previsiones sobre el número de robots que serán fabricados, en millones
+            de unidades, en los próximos 20 años. Los datos se han establecido siguiendo los procesos de <span class="url1">forecasting</span> y
+            la especulación futurista de Asimov.</p>
+        <table>
+            <caption>Estimación fabricación número de robots por años, zona y tipo</caption>
+           
+                <col>
+                <colgroup span="2"></colgroup>
+                <colgroup span="2"></colgroup>
+                <thead>
+                <tr>
+                    <td rowspan="2"></td>
+                    <th colspan="2" scope="colgroup">Europa</th>
+                    <th colspan="2" scope="colgroup">América</th>
+                </tr>
+                
+                <tr class="testtr">
+                    <th scope="col"><span>normales</span></th>
+                    <th scope="col"><span>positrónico</span></th>
+                    <th scope="col"><span>normales</span></th>
+                    <th scope="col"><span>positrónico</span></th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                
+                <tr>
+                    <th scope="row">2025</th>
+                    <td>200</td>
+                    <td>50</td>
+                    <td>300</td>
+                    <td>80</td>
+                </tr>
+                
+                <tr>
+                <th scope="row">2030</th>
+                <td>250</td>
+                <td>180</td>
+                <td>380</td>
+                <td>220</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">2035</th>
+                    <td>255</td>
+                    <td>280</td>
+                    <td>370</td>
+                    <td>410</td>
+                </tr>
+                <tr>
+                    <th scope="row">2040</th>
+                    <td>120</td>
+                    <td>450</td>
+                    <td>200</td>
+                    <td>635</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                    <tr>
+                        <th scope="row">TOTAL</th>
+                        <td>825</td>
+                        <td>960</td>
+                        <td>1250</td>
+                        <td>1345</td>
+                    </tr>
+                </tfoot>
+        </table>
+        <p class="emp">Texto y datos totalmente inventados, sin ninguna relación con la realidad.</p>
+    </article>
+    <!--pie de pagina-->
+    <footer>
+        <p>Actividad realizada por Joversky Jacotin</p>
+        <p>Fotografía de la portada de <a class="url1" href="#">Adam Muise</a> en <a class="url1" href="#">Unsplash</a></p>
+        <img src="img/creative-commons.png" alt="Pie Logo creative commons">
+    </footer>
+</body>
+
+</html>

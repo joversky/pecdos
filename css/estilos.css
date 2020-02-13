@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #306291;
+    font-family: 'Roboto slab', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #306291;
+    font-family: Roboto slab sans-serif;
+    text-transform: uppercase;
+}
+
+.img-menu {
+    display: block;
+    width: 115px;
+    height: 38px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 25px;
+}
+
+main {
+    padding: 0;
+}
+
+.box {
+    background-image: url(../img/fonsrobot.jpg);
+    max-width: 100%;
+    background-size: cover;
+    background-position: top;
+    box-sizing: border-box;
+    height: 535px;
+    padding: 5px 0px;
+    margin-bottom: 0;
+}
+
+.box2 {
+    margin-top: -0.3em;
+    background: white;
+    max-width: 275px;
+    padding: 1rem;
+    color: #1f1f11;
+    border: 3px solid #306291;
+    font-family: Roboto slab sans-serif;
+    font-size: 24px;
+}
+
+.box3 {
+    border: 2px solid #306291;
+    background: rgba(69, 141, 209, 0.2);
+    padding-right: 30px;
+    margin-right: 210px;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-border {
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(to right, #306291 40%, #AFD8FB 100%);
+    border-image-slice: 1;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li a:hover {
+    color: #D9645D;
+}
+
+.menu li a.active {
+    color: #D9645D;
+}
+
+li a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #306291;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+strong {
+    font-weight: bold;
+}
+
+table, caption, td, tr, th {
+    margin-top: 40px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 80%;
+    margin: auto;
+}
+
+caption {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+table td, table th {
+    padding: 5px;
+    border: 1px solid #306291;
+    border-width: 1px;
+}
+
+thead th {
+    background: rgba(69, 141, 209, 0.2);
+    font-weight: bold;
+}
+
+thead th[colspan], thead th[rowspan] {
+    background: rgba(69, 141, 209, 0.5);
+    text-transform: uppercase;
+}
+
+tbody th, tfoot th {
+    text-align: center;
+    background: rgba(69, 141, 209, 0.5);
+    font-weight: bold;
+}
+
+tbody td, tfoot td {
+    text-align: center;
+    background: white;
+}
+
+tfoot th {
+    background: rgba(69, 141, 209, 0.2);
+    font-weight: bold;
+    color: #1f1f11;
+}
+
+tfoot td {
+    background: rgba(69, 141, 209, 0.2);
+    font-weight: bold;
+    color: #306291;
+}
+
+table#travel {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    width: 97%;
+}
+
+table#travel caption {
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+table#travel table td, table#travel table th {
+    padding: 5px;
+    border: 1px solid #306291;
+    border-width: 1px;
+}
+
+th {
+    background: rgba(69, 141, 209, 0.5);
+    color: white;
+}
+
+table#travel thead th {
+    background: rgba(69, 141, 209, 0.2);
+}
+
+td:nth-child(5n+1) {
+    background: rgba(69, 141, 209, 0.5);
+}
+
+form {
+    width: 60%;
+    font-family: "roboto", sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    text-align: justify;
+    width: 30%;
+}
+
+form label>span {
+    width: 70px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+form fieldset {
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 10px;
+    border: 1px solid rgba(69, 141, 209, 0.2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 15px;
+    background: rgba(69, 141, 209, 0.2);
+    text-align: left;
+}
+
+form fieldset legend {
+    color: #1f1f11;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+form input[type=text], form input[type=date], form input[type=number], form input[type=email], form select, form textarea {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid rgba(69, 141, 209, 0.5);
+    outline: none;
+    color: #666666;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px white;
+    -moz-box-shadow: inset 50px 50px 54px white;
+    -webkit-box-shadow: inset 51px 51px 54px white;
+    background: #FFEFF6;
+    width: 60%;
+}
+
+form input[type=submit], form input[type=button] {
+    background: #D9645D;
+    border: 1px solid #D9645D;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.required {
+    color: #D9645D;
+    font-weight: normal;
+}
+
+.fieldset2 {
+    font-size: 16px !important;
+    color: #666666 !important;
+    font-weight: normal;
+    padding: 0;
+    display: inline;
+}
+
+.btn2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+span {
+    color: black;
+}
+
+.blue {
+    color: #306291;
+}
+
+.legend1 {
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
+.url1 {
+    text-decoration: underline;
+    color: #306291;
+    border-bottom: 2px;
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.emp {
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.legend2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 1em;
+    padding-right: 1px;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10em;
+    
+    display: inline!important;
+    float: left;
+    -moz-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+
+footer {
+    border-top: 6px solid transparent;
+    border-image: linear-gradient(to right, #AFD8FB 0%, #306291 100%);
+    border-image-slice: 1;
+    background: linear-gradient(to right, rgb(225, 237, 248) 20%, #c2d9ee 100%);
+    margin-top: 0;
+    padding: 2px;
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Joversky Jacotin">
+    <meta name="description" content="PEC2 M4.252 - HTML y CSS aula 1">
+    <title>ASOCIATE</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- header and navigation content -->
+    <header class="menu-border">
+        <div class="wrapper">
+            <div class="img-menu">
+                <img src="img/logoAsimovFans.png" alt=" Logo Asimov Fans">
+            </div>
+    
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="leyes.html">LEYES</a></li>
+                    <li><a href="datos.html">DATOS</a></li>
+                    <li><a href="soci.html" class="active">ASOCIATE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <h1>Formulario para hacerte socio</h1>
+    <p>Para hacerte socio de nuestro club de fans, por favor rellena los siguientes datos y nos pondremos en contacto
+        contigo lo antes posible para terminar el proceso de inscripción.</p>
+    <form >
+        <fieldset>
+            <legend><span class="blue">1</span> Datos personals</legend>
+            <div>
+                <label>Nombre *</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label>Primer apellido *</label>
+                <input type="text" id="primer_appellido">
+            </div>
+            <div>
+                <label>Segundo apellido</label>
+                <input type="text" id="segundo_appellido">
+            </div>
+            <div>
+                <label>DNI o Pasaporte</label>
+                <input type="text" id="dni_pasaporte" value="DNI o Pasaporte">
+            </div>
+            <div>
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecha_de_nacimiento">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="blue">2</span> Datos de contacto</legend>
+            <div>
+                <label>Correo electrónico *</label>
+                <input type="email" id="correo_electronico">
+            </div>
+            <div>
+                <label>Código postal *</label>
+                <input type="number" id="codigo_postal">
+            </div>
+            <div>
+                <label>Dirección Postal *</label>
+                <input type="text" id="direccion_postal">
+            </div>
+            <div>
+                <label>Población *</label>
+                <input type="number" id="poblacion">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="blue">3</span> Datos de inscripción</legend>
+            <div>
+                <label>Tipo de miembro *</label>
+                <select name="tipo" id="tipo_de_miembro">
+                    <option value="senior">Senior</option>
+                    <option value="junior">Junior</option>
+                </select>
+            </div>
+            <div>
+                <label>Cuota *</label>
+                <select name="cuota" id="Cuota">
+                    <option value="general">General - 5€/mes</option>
+                    <option value="jubilados">Jubilados - 3€/mes</option>
+                    <option value="familiar">Familiar - 11€/mes</option>
+                </select>
+            </div>
+            <div >
+                <fieldset class="legend2">
+                    <legend><span class="legend2">Periodicidad</span></legend>
+                    <div class="bg001">
+                        <input type="radio" id="trimestral">
+                        <label >Trimestral</label>
+                        <input type="radio" id="semestral">
+                        <label >Semestral</label>
+                        <input type="radio" id="anual">
+                        <label >Anual</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label>IBAN</label>
+                <input type="text" id="iban" value="(si no lo sabes, déjalo vacío ">
+            </div>
+            <div class="btn2">
+                <input type="button" value="ENVIAR">
+            </div>
+        </fieldset>
+    </form>
+    </div>
+    <footer>
+        <p>Actividad realizada por Joversky Jacotin</p>
+        <p>Fotografía de la portada de <a class="url1" href="#">Adam Muise</a> en <a class="url1" href="#">Unsplash</a></p>
+        <img src="img/creative-commons.png" alt="Pie Logo creative commons">
+    </footer>
+</body>
+
+</html>
